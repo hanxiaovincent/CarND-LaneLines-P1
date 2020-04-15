@@ -59,4 +59,4 @@ One potential shortcoming is the pipeline is only detecting yellow and white lan
 
 Another potential shortcoming is the final line fitting is using the least square fit, therefore, some small line segment outliers can make the line fitting unstable. One improvement can be using RANSAC to do much robust line fitting.
 
-One future improvement of the pipleline can be utilizing the video frames. One can take the past N frames of the video and do averaging, filtering base on the past N frames, which cloud potentially give better results.
+One future improvement of the pipleline can be utilizing the video frames. One can take the past N frames of the video and do averaging, filtering base on the past N frames, which could potentially give better results.
